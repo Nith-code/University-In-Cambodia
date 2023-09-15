@@ -1,54 +1,157 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- This is styling -->
-        <title>
-            University in Cambodia
-        </title>
-    </head>
-        <!--This is Introduction -->
-    <body style="background-color: rgb(179, 218, 220);">
-        <h1 style="text-align: center;">University in cambodia</h1>
-        <pre style="font-size: 20px;">
-        Welcome to the ultimate online guide for discovering universities in Cambodia! Our website is your go-to resource for comprehensive 
-        information about Cambodia's higher education institutions.
+    <!--Title-->
+        <title>University</title>
+    <!--Styling-->
+        <style>
+            body {
+                margin: 0;
+                width: 100%;
+                background-color: rgb(205, 183, 151);
+            }
+           
+            nav {
+                background-color: black;
+                display: flex;
+                width: 100%;
+            }
+            nav ul {
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+            nav ul li {
+                text-decoration: none;
+                text-align: center;
+                display: inline-block
+            }
+            nav ul li a{
+                font-size: 25px;
+                padding-inline: 20px;
+                text-decoration: none;
+                color: aliceblue;
+            }
+            nav a:hover {
+                color: rgb(255, 246, 246);
+                background-color: rgb(108, 98, 98);
+            }
+            pre {
+                font-size: 15px;
+                text-align: left;
+            }
+            table {
+                width: 100%;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            table tr td {
+                width: 25%;
+                height: auto;
+                text-align: center;
+                padding-inline: 50px;
+            }
+            table tr {
+                align-items: center;
+                margin-bottom: 10px;
+                background-color: rgb(202, 97, 97);
 
-        Cambodia's universities offer a blend of tradition and innovation, and we're here to help you explore them. Find detailed 
-        profiles of universities, discover their academic programs, faculty, research opportunities, and campus life. Whether you're a student,
-        researcher, or just curious about Cambodian higher education, we've got you covered.
-            
-        From renowned public institutions to emerging private universities, we cover the entire spectrum. Our articles and resources assist you
-        in navigating the Cambodian education landscape, whether you're a local or international student.
-            
-        As Cambodia's education sector evolves, we keep you updated with the latest trends. Thanks for visiting, 
-        and let's embark on your educational journey together!
-    </pre>
-        <!-- This is the body (Univesity in Cambodia)-->
-    <h1 style="text-align: center;">Here are the universities in Cambodia</h1>
-        <!-- University in Phnom Penh City -->
-    <h2 style="color: rgb(45, 34, 70);">PHNOM PENH</h2>
-        <!-- RUPP -->
-    <h3>Royal University of Phnom Penh</h3>
-            <img src="rupp_logo.png ", width="450px">
-            <img src="rupp.jpg", width="550px">
-    <pre style="font-size: 20px;">
-        - Establishment: Founded in 1960 as the National Pedagogical Institute, later becoming RUPP in 1996.
-        - Location: Located in Phnom Penh, Cambodia's capital city.
-        - Academics: RUPP offers a wide range of undergraduate and postgraduate programs across various fields.
-        - Faculty: RUPP boasts a highly qualified faculty.
-    For more information vist <a href="https://www.rupp.edu.kh/">RUPP</a>
-    </pre>
-        <!-- University in Kampong Speu City -->
-    <h2 style="color: rgb(45, 34, 70);">KAMPONG SPEU</h2>
-        <!-- KIT -->
-    <h3>Kirirom Institute Of Technology (KIT) </h3>
-        <img src="kitlogo.png ", width="400px">
-        <img src="KIT.jpg", width="500px">
-    <pre style="font-size: 20px;">
-        - Location: Situated in the serene Kirirom National Park, offering a unique learning environment.
-        - Focus: Specializes in technology and engineering education.
-        - Faculties : Engineering , Tourism Management, Architecture
-    For more information visti <a href="https://kit.edu.kh/">KIT</a>
-    </pre>
+            }
+            table tr td img {
+                width: 100%;
+                height: auto;
+            }
+            table tr td a {
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 25px;
+                color: black;
+            }
+            footer ul{
+                float: left;
+                background-color: black;
+                width: 100%;
+            }
+            footer ul li{
+                text-decoration: none;
+                display: inline-block;
+                text-align: center;
+                padding-inline: 50px;
+                color: aliceblue;
+            }
+            footer {
+                background-color: black;
+                width: 100%;
+                height: auto;
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Navigation-->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">University</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </nav>
+        <!--About Website-->
+        <section>
+            <pre>
+            Welcome to the ultimate online guide for discovering universities in Cambodia! Our website is your go-to resource for comprehensive information about 
+            Cambodia's higher education institutions.
+
+            Cambodia's universities offer a blend of tradition and innovation, and we're here to help you explore them. Find detailed profiles of universities, 
+            discover their academic programs, faculty, research opportunities, and campus life. Whether you're a student, researcher, or just curious about 
+            Cambodian higher education, we've got you covered.
+
+            From renowned public institutions to emerging private universities, we cover the entire spectrum. Our articles and resources assist you in navigating 
+            the Cambodian education landscape, whether you're a local or international student.
+
+            As Cambodia's education sector evolves, we keep you updated with the latest trends. Thanks for visiting, and let's embark on your educational 
+            journey together!
+            </pre>
+        <!--Some university in Cambodia-->
+        </section>
+        <section>
+            <h2 style="text-align: center;">University in Cambodia</h2>
+            <table class="">
+                <tr>
+                    <td><a href="https://kit.edu.kh/"><img src="Kitlogo.png" alt="KIT"></a></td>
+                    <td><a href="https://www.cadt.edu.kh/"><img src="CADT.png" alt="CADT"></a></td>
+                    <td><a href="https://www.rupp.edu.kh/"><img src="RUPP_logo.png" alt="RUPP"></a></td>
+                    <td><a href="https://www.aupp.edu.kh/"><img src="AUPP_Logo.png" alt="AUPP"></a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://kit.edu.kh/">Kirirom Insitute Of Technology</a></td>
+                    <td><a href="https://www.cadt.edu.kh/">Cambodia Acedemic Of Digital Technology</a></td>
+                    <td><a href="https://www.rupp.edu.kh/">Royal University Of Phnom Penh</a></td>
+                    <td><a href="https://www.aupp.edu.kh/">American University Of Phnom Penh</a></td>
+                </tr>
+                <tr>
+                    <td><img src="R.png" alt="ITC"></td>
+                    <td><img src="uc.png" alt="University Of Cambodia"></td>
+                    <td><img src="Num_logo.png" alt="National University Of Management"></td>
+                    <td><img src="RUFA_new_logo.png" alt="Royal University Of Fine Art"></td>
+                </tr>
+                <tr>
+                    <td><a href="https://itc.edu.kh/">Institue De Technology De Cambodge</a></td>
+                    <td><a href="https://www.uc.edu.kh/">University Of Cambodia</a></td>
+                    <td><a href="https://www.num.edu.kh/">National University Of Management</a></td>
+                    <td><a href="https://www.rufa.edu.kh/">Royal University Of Fine Art</a></td>
+                </tr>
+            </table>
+        </section>
+        <!--Footer-->
+        <footer class="Footer">
+            <ul>
+                <li>Thanks for vistiting us</li>
+                <li>Contact us</li>
+                <li>Tel: 098 488 345</li>
+                <li>Facebook: Univer</li>
+            </ul>
+        </footer>
     </body>
 </html>
